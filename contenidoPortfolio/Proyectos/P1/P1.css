@@ -1,0 +1,260 @@
+/* DESCRIPCIÓN DEL PROYECTO*/
+.project-detail {
+    padding-top: 180px ; 
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: block;
+}
+
+.project-hero {
+    margin-bottom: 5rem;
+    text-align: left;
+}
+
+.project-hero h1 {
+    font-size: clamp(3rem, 8vw, 5.5rem);
+    line-height: 1;
+    margin: 1.5rem 0;
+    font-weight: 800;
+}
+
+.project-intro {
+    font-size: 1.4rem;
+    color: var(--text-secondary);
+    max-width: 650px;
+    border-left: 4px solid var(--accent-color);
+    padding-left: 1.5rem;
+    line-height: 1.4;
+}
+
+/* IMÁGEN DESCRIPTIVA DEL PROYECTO */
+.main-image-container {
+    width: 100%;
+    margin-bottom: 5rem;
+    border: 1px solid var(--border-color);
+    overflow: hidden;
+}
+
+.main-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* INFORMACIÓN DEL PROYECTO */
+.project-meta {
+    display: flex;
+    align-items: center;        
+    justify-content: center; 
+    gap: 3rem;                  
+    flex-wrap: wrap;            
+    padding: 3rem 0;
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 6rem;
+}
+
+.meta-item {
+    min-width: fit-content;
+}
+
+.meta-item h4 {
+    color: var(--accent-color);
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    margin-bottom: 0.5rem;
+}
+
+/* BOTÓN DESCARGA/VISITAR WEB*/
+.secondary-btn {
+    background: transparent;
+    color: var(--text-primary);       
+    border: 1px solid var(--text-primary); 
+    padding: 0.8rem 2rem;             
+    font-size: 0.9rem;
+    text-decoration: none;            
+    font-weight: 600;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    white-space: nowrap;              
+}
+
+.secondary-btn:hover {
+    background: var(--text-primary);
+    color: white;                     
+    cursor: pointer;
+}
+
+/* TÍTULOS SECCIONES */
+.text-block {
+    margin-bottom: 5rem;
+}
+
+.text-block h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* IMÁGENES DE LOS PROYECTOS*/
+.image-block {
+    margin: 4rem 0 auto;
+    width: 100%;
+}
+
+.image-block img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+}
+.fixed-height {
+    height: 500px !important;
+    width: auto !important;
+    max-width: 100%;
+    object-fit: contain;
+    margin: 4rem auto;
+    display: block;
+}
+
+/*INFO EXTRA A MODO LEYENDA*/
+.legend {
+    margin-top: 1rem;
+    margin: 4rem;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    font-style: italic;
+    text-align: center;
+}
+
+
+/* CARRUSELL 1 Y 2 */
+.carousel-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    margin: 3rem auto;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.carousel-track {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    align-items: center;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.carousel-track::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel-slide {
+    min-width: 100%; 
+    scroll-snap-align: center;
+    position: relative;
+}
+
+.carousel-slide img {
+    width: 100%;      
+    height: auto;
+    display: block;     
+    object-fit: contain;
+}
+
+/* BOTONES SIGUIENTE Y ANTERIOR*/
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    color: var(--accent-color);
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 10;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+.carousel-btn:hover {
+    background-color: var(--accent-color);
+    color: white;
+}
+
+.prev { 
+    left: 20px; 
+}
+.next { 
+    right: 20px; 
+}
+
+
+/* FOOTER */
+.project-footer {
+    background-color: var(--accent-color);
+    padding: 8rem 5%;
+    text-align: center;
+    color: white;
+}
+
+.project-footer .cta-button {
+    background: white;
+    color: var(--accent-color);
+    padding: 1rem 2.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 700;
+    display: inline-block;
+    margin-top: 2rem;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .project-detail { 
+        padding-top: 140px !important; 
+    }
+
+    .project-meta { 
+        flex-direction: column;      
+        align-items: flex-start;      
+        gap: 2rem;
+    }
+    
+    .secondary-btn {
+        width: 100%;                  
+        text-align: center;
+        margin-top: 1rem;
+    }
+    
+    .carousel-btn {
+        width: 40px; 
+        height: 40px;
+        font-size: 1.5rem;
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+    
+    .prev { 
+        left: 10px; 
+    }
+
+    .next { 
+        right: 10px; 
+    }
+
+    .fixed-height {
+        height: auto;
+        width: 100% !important;
+    }
+}

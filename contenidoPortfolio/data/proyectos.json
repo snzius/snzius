@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "titulo": "Azulejos",
+    "categoria": "Bellas Artes",
+    "descripcion": "Diseño y estampación de azulejos sobre cerámica.",
+    "imagen": "img/P/pAzulejos.png",
+    "tags": ["Grabado", "Serigrafía digital"],
+    "size": "large", 
+    "link": "Proyectos/P1/P1.html"
+  },
+  {
+    "id": 2,
+    "titulo": "Detalles",
+    "categoria": "Bellas Artes",
+    "descripcion": "Investigación visual avanzada sobre luces y sombras.",
+    "imagen": "img/P/pFotopolímero.png",
+    "tags": ["Grabado", "Fotopolímero"],
+    "size": "tall",
+    "link": "Proyectos/P2/P2.html"
+  },
+  {
+    "id": 3,
+    "titulo": "Segundas oportunidades",
+    "categoria": "Bellas Artes",
+    "descripcion": "Representación de estados a través de ilustraciones.",
+    "imagen": "img/P/1.png",
+    "tags": ["Grabado", "Serigrafía digital"],
+    "size": "normal",
+    "link": "Proyectos/P3/P3.html"
+  },
+  {
+    "id": 4,
+    "titulo": "Pescado ambulante",
+    "categoria": "Bellas Artes",
+    "descripcion": "Mi primer trabajo a punta seca y el más especial.",
+    "imagen": "img/P/pPseca.jpg",
+    "tags": ["Grabado","Punta seca"],
+    "size": "normal",
+    "link": "Proyectos/P4/P4.html"
+  },
+  {
+    "id": 5,
+    "titulo": "Chocolates Valor",
+    "categoria": "Bellas Artes",
+    "descripcion": "Rediseño de Identidad Corporativa y Manual IC.",
+    "imagen": "img/P/pMIC.png",
+    "tags": ["Diseño de MIC", "Diseño gráfico"],
+    "size": "normal",
+    "link": "Proyectos/P5/P5.html"
+  },
+  {
+    "id": 6,
+    "titulo": "Reverberar",
+    "categoria": "Bellas Artes",
+    "descripcion": "Resignificación de imagenes de archivo a modo de crítica social.",
+    "imagen": "img/P/pReverberar.png",
+    "tags": ["TFG", "Grabado", "Fotografía", "Diseño"],
+    "size": "normal",
+    "link": "Proyectos/P6/P6.html"
+  },
+  {
+    "id": 7,
+    "titulo": "Proyecto 3D Van Gogh",
+    "categoria": "MDI",
+    "descripcion": "Reproducción 3D de mobiliario del cuadro 'Arlés' de Van Gogh.",
+    "imagen": "img/P/3D.png",
+    "tags": ["3D", "Blender"],
+    "size": "tall",
+    "link": "Proyectos/P7/P7.html"
+  },
+  {
+    "id": 8,
+    "titulo": "Steel Minds",
+    "categoria": "MDI",
+    "descripcion": "Propuesta ganadora de reto para Acerinox en Hackathon de IndesIA.",
+    "imagen": "img/P/pSteel.png",
+    "tags": ["Hackathon", "IndesIA", "Acerinox", "Figma"],
+    "size": "large",
+    "link": "Proyectos/P8/P8.html"
+  }
+]
